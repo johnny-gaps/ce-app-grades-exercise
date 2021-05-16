@@ -1,0 +1,3 @@
+services:
+  CE\Domain\Model\StudentRepository: '@CE\Infrastructure\Persistence\DoctrineStudentRepository'
+  CE\Domain\Model\DescribableGradeRangeRepository: '@CE\Infrastructure\Persistence\DoctrineDescribableGradeRangeRepository'
